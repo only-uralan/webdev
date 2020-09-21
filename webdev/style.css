@@ -1,0 +1,863 @@
+html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  top: -1000px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigationn menu*/
+
+header {
+  width: 100%;
+  height: 95px;
+  -moz-z-index: 1;
+  -ms-z-index:1 ;
+   z-index: 1;
+}
+
+nav {
+  width: 582px;
+  align-items: center;
+  margin: 0px 516px 0px 502px;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+}
+
+nav ul li a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19.6px;
+  height: 20px;
+  width: 38px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #00afdb;
+}
+
+.logo {
+  background-image: url(assets/logo.png);
+  width: 44px;
+  height: 44px;
+}
+
+#about {
+  position: absolute;
+  top: 19px;
+  left: 654px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#about:hover {
+  border-bottom: 1px solid #00afdb;
+}
+
+#underline {
+position: absolute;
+width: 39px;
+height: 0px;
+left: 653px;
+top: 58px;
+border: 1px solid #FFFFFF;
+}
+
+#Syllabus {
+  font-weight: 400;
+  position: absolute;
+  top: 19px;
+  left: 776px;
+  opacity: 0.8;
+}
+
+#logo {
+  position: absolute;
+  top: 6px;
+  left: 930px;
+  width: 44px;
+  height: 44px;
+}
+
+#projects {
+  font-weight: 400;
+  position: absolute;
+  top: 19px;
+  left: 1075px;
+  opacity: 0.8;
+}
+
+#FAQ {
+  font-weight: 400;
+  position: absolute;
+  top: 19px;
+  left: 1210px;
+  opacity: 0.8;
+}
+
+/* life-is-webdev section*/
+
+.life-is-webdev {
+  background-image: url(assets/life-mail-image.jpg);
+  width: 1600px;
+  height: 744px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  position: relative;
+  top: -130px;
+  -moz-z-index: 0;
+  -ms-z-index: 0;
+  z-index: 0;
+}
+
+.life-is-webdev h2 {
+  position: absolute;
+  top:177px;
+  left:436px;
+  height: 75px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.life-is-webdev p {
+  position: absolute;
+  top:308px;
+  left: 577px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  height: 50px;
+}
+
+.life-is-webdev button {
+  position: absolute;
+  top: 406px;
+  left: 707px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  border: none;
+}
+
+.life-is-webdev button:hover {
+  background: #009cc2;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+}
+
+.social ul li a {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+#mail {
+  background-image: url(assets/mail.png);
+  position: absolute;
+  top:635px;
+  left: 715px;
+}
+
+#facebook {
+  background-image: url(assets/facebook.png);
+  position: absolute;
+  top:635px;
+  left: 765px;
+}
+
+#insta {
+  background-image: url(assets/insta.png);
+  position: absolute;
+  top:635px;
+  left: 815px;
+}
+
+#telegram {
+  background-image: url(assets/telegram.png);
+  position: absolute;
+  top:635px;
+  left: 865px;
+}
+
+/* design section*/
+
+.smart-design {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -130px;
+  margin-bottom: -130px;
+  height: 842px;
+  background: #ffffff;
+}
+
+.info-smart-design {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.info-smart-design h3 {
+  position: relative;
+  top: -35px;
+  left: 268px;
+  height: 57px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+  margin: 0;
+}
+
+.info-smart-design p {
+  position: relative;
+  top: -13px;
+  left: 268px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4E4E4E;
+  margin: 0;
+}
+
+.smart-design button {
+  position: relative;
+  top: 16px;
+  left:268px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  border: none;
+  margin: 0;
+}
+
+.smart-design button:hover {
+  background: #009cc2;
+}
+
+.design-image {
+  width: 407px;
+  height: 582px;
+  background-image: url(assets/content-image-1.png);
+  position: relative;
+  top: -10px;
+  left:-270px;
+}
+
+/* our community section */
+
+.our-community {
+  height: 504px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f6f7;
+}
+
+.scroll-images {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.navigation {
+  position: relative;
+  top: -40px;
+  left: 245px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 79px;
+}
+
+.images {
+  position: relative;
+  top: 5px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 894px;
+}
+
+.user-avatar {
+  position: relative;
+  top: 4px;
+  left: 293px;
+  background-image: url(assets/user-avatar.png);
+  width: 45px;
+  height: 45px;
+}
+
+.info-community h4 {
+  position: relative;
+  top: 2px;
+  left: 235px;
+  height: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #373737;
+  }
+
+  .info-community p {
+    position: relative;
+    top: -8px;
+    left: 169px;
+    height: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #4E4E4E;
+  }
+
+  .left-arrow {
+    position: relative;
+    top: 1px;
+    left: -5px;
+    width: 9px;
+    height: 14px;
+    background-image: url(assets/left-arrow.png);
+  }
+
+  .left-arrow:hover {
+    cursor: pointer;
+  }
+  .right-arrow:hover {
+    cursor: pointer;
+  }
+
+  .navigation span {
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #373737;
+  }
+
+  #start-page {
+    position: relative;
+    top: 0px;
+    left: 2px;
+  }
+
+  #last-page {
+    position: relative;
+    top: 0px;
+    left: -3px;
+  }
+
+  .right-arrow {
+    background-image: url(assets/right-arrow.png);
+    width: 14px;
+    height: 14px;
+  }
+
+  .first-image {
+    position: relative;
+    top: -28px;
+    left: 104px;
+    background-image: url(assets/first-image.png);
+    min-width: 407px;
+    height: 244px;
+  }
+
+  .second-image {
+    position: relative;
+    top: -28px;
+    left: 104px;
+    background-image: url(assets/second-image.png);
+    min-width: 407px;
+    height: 244px;
+  }
+
+  .third-image {
+    position: relative;
+    top: -28px;
+    left: 104px;
+    background-image: url(assets/third-image.png);
+    width: 20px;
+    height: 244px;
+    overflow: hidden;
+  }
+
+  /* Implement section */
+
+  .implement {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 842px;
+    background: #ffffff;
+  }
+
+  .implement-image {
+    position: relative;
+    top: -10px;
+    left: 269px;
+    background-image: url(assets/implement-image.png);
+    width: 407px;
+    height: 582px;
+  }
+
+  .info-for-implement h2 {
+    position: relative;
+    top: -29px;
+    left: -380px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+  }
+
+  .info-for-implement p {
+    position: relative;
+    top: -27px;
+    left: -381px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E4E4E;
+  }
+
+  .info-for-implement button {
+    position: relative;
+    top: -11px;
+    left: -381px;
+    width: 180px;
+    height: 46px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    justify-content: center;
+    border: none;
+  }
+
+  .info-for-implement button:hover {
+    background: #009cc2;
+  }
+
+  /* subscribe section*/
+
+  .subscribe {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 598px;
+    background-image: url(assets/subscribe-image.png);
+  }
+
+  .subscribe h2 {
+    position: relative;
+    top: -46px;
+    left: 1px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .mail {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .mail input {
+    position: relative;
+    top: -34px;
+    left: 0px;
+    width: 316px;
+    min-height: 43px;
+    padding: 1px 0px 0px 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: #373737;
+  }
+
+  .mail button {
+    position: relative;
+    top: -34px;
+    left: 0px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 46px;
+    background: #00AFDB;
+    border: none;
+    padding: 0;
+  }
+
+  .mail button:hover {
+    background: #009cc2;
+  }
+
+  .check {
+    background-image: url(assets/check.png);
+    width: 19px;
+    height: 14.52px;
+    background-size: cover;
+    background-position: center;  
+  }
+
+  /* download section */
+
+  .download {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 468px;
+    background: #f5f6f7;
+  }
+
+  .download h2 {
+    position: relative;
+    top: -42px;
+    left: 1px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+  }
+
+  .download p {
+    position: relative;
+    top: -54px;
+    left: 1px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4E4E4E;
+  }
+
+  .markets {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 426px;
+  }
+
+  .apple-store {
+    position: relative;
+    top: -38px;
+    left: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #first-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 50px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+  }
+
+  #first-button:hover {
+    background: #009cc2;
+  }
+
+  #second-button {
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   height: 50px;
+   background: #009cc2;
+   border: none;
+  }
+
+  #second-button:hover {
+    background: #00afdb;
+  }
+
+  .logo-apple {
+    background-image: url(assets/logo-apple.png);
+    width: 16.97px;
+    height: 19.25px;
+  }
+
+  .play-market {
+    position: relative;
+    top: -38px;
+    left: -10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #third-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 50px;
+    background: #00AFDB;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding: 0;
+  }
+
+  #third-button:hover {
+    background: #009cc2;
+  }
+
+  #fourth-button {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 50px;
+    background: #009cc2;
+    border: none;
+  }
+
+  #fourth-button:hover {
+    background: #00afdb;
+  }
+
+  .logo-play-market {
+    position: relative;
+    top: -2px;
+    left: 1px;
+    background-image: url(assets/logo-play-market.png);
+    width: 20.97px;
+    height: 21.25px;
+  }
+
+  /* footer section */
+
+  footer {
+    background-color: #000000;
+    width: 1600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 184px;
+  }
+
+  .left-side {
+    position: relative;
+    top: -9px;
+    left: -32px;
+    width: 236px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .slash {
+    background-image: url(assets/slash.png);
+    width: 1px;
+    height: 8px;
+  }
+
+  .logo-bottom {
+    position: relative;
+    top: -10px;
+    left: -33px;
+    background-image: url(assets/logo.png);
+    width: 44px;
+    height: 44px;
+  }
+
+  .logo-bottom:hover {
+    cursor: pointer;
+  }
+
+  .left-side span {
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.98;
+  }
+
+  .left-side span:hover {
+    cursor: pointer;
+  }
+
+  .designer {
+    position: relative;
+    top: -9px;
+    left: 32px;
+    height: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #818181;
+  }
+
+/*end*/
